@@ -12,6 +12,7 @@
 .idea/
 .project/
 .bundle/
+.editorconfig
 
 # Ansible files.
 *.retry
@@ -31,3 +32,6 @@ Vagrantfile.local
 /examples/prod/bootstrap/vars.yml
 /scripts/
 /drupal/
+
+local.settings.php
+.htaccess
