@@ -1,0 +1,56 @@
+name = Gratis 2.0
+description = Gratis is a responsive Drupal 7 theme designed and developed by Danny Englander, <a href="http://highrockmedia.com">High Rock Media</a>
+core = 7.x
+engine = phptemplate
+
+; CSS --------------------
+
+stylesheets[all][] = css/gratis.normalize.css
+stylesheets[all][] = css/gratis.color-palettes.css
+stylesheets[all][] = css/gratis.core.css
+stylesheets[all][] = css/gratis.styles.css
+
+; override the system.theme css file.
+stylesheets[all][] = system.theme.css
+stylesheets[all][] = system.menus.css
+stylesheets[all][] = aggregator.css
+
+scripts[] = js/jRespond.js
+scripts[] = js/gratis.js
+
+; Regions --------------------
+regions[top_links]       = Top Links
+regions[thirdparty_menu]  = Main menu (third party menu systems)
+regions[preface_first]  = Preface first
+regions[preface_second] = Preface second
+regions[preface_third]  = Preface third
+regions[content_top]    = Content top
+regions[help]           = Help
+regions[sidebar_first]  = Sidebar First
+regions[sidebar_second]  = Sidebar Second
+regions[content]         = Content
+regions[node_block]         = Node Block
+regions[postscript_first]   = Postscript first
+regions[postscript_second]  = Postscript second
+regions[postscript_third]   = Postscript third
+regions[footer_first]   = Footer first
+regions[footer_second]   = Footer second
+regions[footer_third]   = Footer third
+
+
+; Gratis default settings --------------
+
+settings[gratis_hacks_settings]  = 1
+settings[breadcrumbs]  = 1
+settings[gratis_viewport]  = 0
+settings[theme_color_palette]  = orange
+settings[gratis_localcss]  = 0
+settings[gratis_custom_css_location]  = 0
+settings[tropica_setfonts]  = 1
+
+; Information added by Drupal.org packaging script on 2014-09-18
+version = "7.x-2.2"
+core = "7.x"
+project = "gratis"
+datestamp = "1411002244"
+
